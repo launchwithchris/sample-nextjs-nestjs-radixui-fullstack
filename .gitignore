@@ -1,0 +1,110 @@
+# Dependencies
+**/node_modules
+**/.pnp
+**/.pnp.*
+**/.yarn/*
+!**/.yarn/patches
+!**/.yarn/plugins
+!**/.yarn/releases
+!**/.yarn/versions
+**/.yarn/install-state.gz
+**/.npm
+**/.yarn-integrity
+**/package-lock.json.old
+
+# Testing
+**/coverage
+**/.nyc_output
+backend/test/coverage
+
+# Next.js (Frontend)
+sample-nextjs-nestjs-radixui-fullstack/.next/
+sample-nextjs-nestjs-radixui-fullstack/out/
+sample-nextjs-nestjs-radixui-fullstack/next-env.d.ts
+
+# Production
+**/build
+**/dist
+
+# Misc
+**/.DS_Store
+**/*.pem
+**/Thumbs.db
+**/desktop.ini
+
+# Debug and Logs
+**/logs
+**/*.log
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+**/pnpm-debug.log*
+**/.pnpm-debug.log*
+**/lerna-debug.log*
+
+# Environment variables
+**/.env
+**/.env.local
+**/.env.development
+**/.env.test
+**/.env.production
+**/.env.*.local
+**/.env.backup
+
+# Vercel (Frontend)
+sample-nextjs-nestjs-radixui-fullstack/.vercel
+
+# TypeScript
+**/*.tsbuildinfo
+**/tsconfig.tsbuildinfo
+**/*.js.map
+
+# IDEs and editors
+**/.idea
+**/.project
+**/.classpath
+**/.c9/
+**/*.launch
+**/.settings/
+**/*.sublime-workspace
+
+# IDE - VSCode
+**/.vscode/*
+!**/.vscode/extensions.json
+!**/.vscode/settings.json
+!**/.vscode/tasks.json
+!**/.vscode/launch.json
+
+# Cache and logs
+**/.cache
+**/.eslintcache
+**/.stylelintcache
+**/.swc/
+
+# Frontend specific
+sample-nextjs-nestjs-radixui-fullstack/.tanstack-query-state/
+sample-nextjs-nestjs-radixui-fullstack/storybook-static/
+
+# Backend specific (NestJS)
+backend/documentation/
+
+# Prisma (Backend)
+backend/prisma/*.db
+backend/prisma/migrations/*.sql
+backend/prisma/dev.db
+backend/prisma/dev.db-journal
+backend/.prisma
+backend/generated
+
+# Runtime data
+**/pids
+**/*.pid
+**/*.seed
+**/*.pid.lock
+
+# Temporary directories
+**/.temp
+**/.tmp
+
+# Diagnostic reports
+**/report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
